@@ -1,0 +1,303 @@
+@font-face {
+  font-family: 'StagSansLight';
+  src: url("../fonts/StagSans-Light.woff") format("woff"), url("../fonts/StagSans-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'StagSansMedium';
+  src: url("../fonts/StagSans-Medium.woff") format("woff"), url("../fonts/StagSans-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'StagSansBook';
+  src: url("../fonts/StagSans-Book.woff") format("woff"), url("../fonts/StagSans-Book.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'StagSansSemiBold';
+  src: url("../fonts/StagSans-SemiBold.woff") format("woff"), url("../fonts/StagSans-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+.light{
+    font-family: 'StagSansLight', sans-serif;
+}
+
+.book{
+    font-family: 'StagSansBook', sans-serif;
+}
+
+.medium{
+    font-family: 'StagSansMedium', sans-serif;
+}
+
+.semiBold, .semibold{
+    font-family: 'StagSansSemiBold', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif; }
+
+
+#bg {
+  position: absolute;
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 298px;
+  height: 248px;    
+}
+
+.imgBlock {
+  position: absolute;
+  display: block;
+}
+
+.invisibleStart {
+  opacity: 0;
+}
+
+#container {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#snipe {
+	z-index: 11;
+	background-color: #00487a;
+	width: 160px;
+	height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	transform: rotate(36deg);
+	position: absolute;
+	top: 17px;
+	right: -46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; }
+
+#snipeText {
+	color: white;
+	font-family: "StagSansSemiBold", Arial, sans-serif;
+	font-size: 10px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	top: 0.5px;
+}
+
+#snipeGradient {
+  position: absolute;
+  top: -50px;
+  left: -60px;
+  width: 60px;
+  height: 100px;
+  transform: rotate(30deg);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 60%); }
+
+
+#cta_btn {
+  z-index: 11;
+  visibility: hidden;
+  cursor: pointer;
+  position: absolute;
+  
+  overflow: hidden;
+    
+/*  bottom: 0;  
+  width: 300px;
+  height: 36px;*/
+    
+    
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  background: linear-gradient(to top, #ed3040 0%, #c32532 50%);
+  text-align: center; }
+
+.cta-text {
+  font-family: StagSansMedium;
+  /*font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 36px;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.cta-arrow {
+  padding-left: 6px;
+}
+
+.ctaArrow {
+  font-family: "StagSansLight","StagSansMedium";
+}
+
+#cta_gradient {
+  position: absolute;
+  top: -50px;
+  left: -60px;
+  width: 60px;
+  height: 100px;
+  transform: rotate(30deg);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 60%); }
+
+#legal_text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+   /* padding: 0 5px;*/
+    margin: 0;
+    font-family: 'StagSansBook',sans-serif;
+    font-size: 9px;
+    line-height: 9px;
+    text-align: center;
+    color: rgba(255,254,254,0.65);
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;  
+    box-sizing: border-box;
+ }
+
+#legal_details {
+  display: none;
+  position: absolute;
+  z-index: 1001;
+  visibility: hidden;
+  top: 0px;
+  left: 0px; }
+
+#legal_details_text {
+  padding: 5px;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 9px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+}
+
+#legal_details_text a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+
+/* Start Creative Specific Scripting */
+
+#logo2{
+
+  position: absolute;
+  left: 48px;
+  top: 45px;
+  width: 185px;
+  height: 43px;
+  z-index: 65;
+
+
+}
+#whiteFrame{
+	background-color: white;
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+	transform-origin: right;
+}
+#pushFrame{
+	background-image: url(../images/blueDiagonal.svg);
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 10;
+}
+#deviceContainer{
+	position: absolute;
+}
+
+#logo {
+	z-index: 1;
+	position: absolute;
+	left: 13px;
+  top: 14px;
+  width: 124px;
+  height: 29px;
+}
+
+#holder {
+    position: absolute;
+    text-align: center;
+    font-family: 'StagSansLight',sans-serif;
+    color: #FFF;
+}
+#blueFill,#redFill{
+	transform-origin: bottom;
+	width: 48px;
+
+height: 85px;
+}
+#lockup {
+    position: absolute;
+    width: 100%;
+    height: auto;
+		
+}
+#text1, #text2{
+	position: absolute;
+	width:100%;
+	top:20px;
+}
+.text{
+    position: absolute;
+}
+#text1a{
+	color:black;
+}
+#text3c{
+	letter-spacing: 1.3px;
+}
+#text-1-1 sup, #text-1-2 sup, #text4a sup {
+	font-size: 68%;
+	position: relative;
+	top: 2px;
+	vertical-align: text-top;
+	margin-right: 1px;
+}
+#text-1-1 sup:nth-child(2), #text-1-2 sup:nth-child(2), #text-1-3 sup:nth-child(2){
+   /* left: 1px;*/
+}
+
+#text-1-1 span.month, #text-1-2 span.month, #text-1-3 span.month , #text-1-4 span.month{
+    font-size: 63%;
+}
+
+
+
+.line {
+    position: absolute;
+    background-color: #ee3040;
+    display: none;
+}
+
+#deviceLogo, #deviceLogoEnd, #device, #deviceEnd {
+    z-index: 11;
+    position: absolute;
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+}

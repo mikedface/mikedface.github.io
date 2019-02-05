@@ -1,0 +1,201 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+#ad-container {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+	background: #FFF no-repeat;
+	background-size: 300px 250px;
+	border: 1px solid black;
+	cursor: pointer;
+	background: #000 url(_img/poster.png) no-repeat;
+}
+#videoplayer {
+	display: none;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+}
+#video-container {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#endframe-container {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+}
+#endframe-background-img {
+	position: absolute;
+	display: none;
+	left: -1px;
+	top: -1px;
+	width: 300px;
+	height: 250px;
+	background: url(poster.jpg);
+}
+
+
+#end-date1 {
+	position: absolute;
+	left: 189px;
+  top: 19px;
+  width: 74px;
+  height: 37px;
+	background: url("_img/date.png") no-repeat;
+
+	opacity: 1;
+}
+#end-date2 {
+	position: absolute;
+	left: 189px;
+  top: 19px;
+  width: 72px;
+  height: 37px;
+	background: url("_img/date2.png") no-repeat;
+
+	opacity: 1;
+}
+
+#logo {
+	position: absolute;
+	display: inline-block;
+	left:0px;
+	bottom:0px;
+	width: 300px;
+	height: 27px;
+	background: url("_img/bar3ds.png") no-repeat;
+	background-position: -0px 0px;
+	opacity: 1;
+}
+
+#cta-btn1 {
+	position: absolute;
+	display: inline-block;
+	right: 0px;
+	bottom: 0px;
+	width: 145px;
+	height: 27px;
+		background: url(_img/cta1.png);
+
+
+	opacity: 1;
+}
+#cta-btn2 {
+	position: absolute;
+	display: inline-block;
+	right: 0px;
+	bottom: 0px;
+	width: 145px;
+	height: 27px;
+		background: url(_img/cta2.png);
+
+
+	opacity: 0;
+}
+
+
+#carrot{
+
+  position: absolute;
+  left: 284px;
+  top: 230px;
+  width: 5px;
+  height: 10px;
+ 
+}
+
+
+.cta-show {
+	bottom: 0px;
+}
+#click-thru {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	top: 0px;
+	left: 0px;
+}
+
+#replay-btn {
+	position: absolute;
+	display: inline-block;
+	right: 6px;
+	top: 6px;
+	width: 10px;
+	height: 10px;
+	opacity: 0;
+	background: url("replayBtn.png") no-repeat;
+	background-position: 0px 0px;
+}
+#mute-btn{
+		position: absolute;
+	display: inline-block;
+	right: 6px;
+	top: 6px;
+	width: 15px;
+	height: 15px;
+}
+#hand{
+	position: absolute;
+	
+	right:-24px;
+  top: 34px;
+  width: 65px;
+  height: 77px;
+	background: url("_img/stylus.png") no-repeat;
+	opacity: 0;
+
+}
+#super2 {
+    position: absolute;
+	background-image: url(_img/super2.png);
+   left: 3px;
+top: 208px;
+    width: 52px;
+    height: 7px;
+    font-size: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	opacity:0;
+	
+}
+	
+#mario{
+	background-image: url(_img/mario1.png);
+	display: inline-block;
+	position: absolute;
+left:105px;
+  top: 69px;
+  width: 194px;
+  height: 153px;
+opacity:0;
+
+
+}
+
+#pack{
+	background-image: url(_img/pack.png);
+	width:159px;
+	height:1342px;
+	position:absolute;
+  left: 23px;
+  top: 15px;
+ opacity:0;
+	background-repeat: no-repeat;
+
+}
+
+

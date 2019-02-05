@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="source/style.css">
+	<style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    #container {
+      position: relative;
+      box-sizing: border-box;
+      width: 300px;
+      height: 250px;
+      overflow: hidden;
+      border: 1px solid #d7d7d7;
+      background-color: #FFF;
+    }
+  </style>
+</head>
+<body>
+	<div id="container" class="invisibleStart">
+
+		<div id="bg" class="invisibleStart">
+			<!-- FRAME 1 -->
+            <div id="holder">
+              <div id ="whiteFrame">
+								<div id='text1a'class="text invisibleStart"></div>
+								<div id='text1b' class="text invisibleStart"></div>
+								<div id='text1c' class="text invisibleStart"></div>
+							</div> 
+							<div id="pushFrame">
+							
+								<div id="text2a" class="text"></div>
+								<div id="text2b"class="text"></div>
+							</div>
+							<div id ="logo2"><img src="images/usc-logo_34x8.svg"></div>
+              <div id="lockup">
+                <div id="text3a" class="text invisibleStart"></div>
+                <div id="text3b" class="text invisibleStart"></div>
+                <div id="text3c" class="text invisibleStart"></div>
+								<div id="text4a" class="text invisibleStart"></div>
+                <div id="text4b" class="text invisibleStart"></div>
+                <div id="text4c" class="text invisibleStart"></div>
+                <div class="line invisibleStart" id="line-1"></div>
+                <div class="line invisibleStart" id="line-2"></div>
+                <div class="line invisibleStart" id="line-3"></div>
+                <div class="line invisibleStart" id="line-4"></div>
+              </div>
+            </div>
+            
+            <img id="logo" class="logo invisibleStart" src="images/usc-logo_34x8.svg" >
+            
+			<!-- SNIPE -->
+			<div id="snipe" class="invisibleStart">
+				<div id="snipeGradient"></div>
+				<span id="snipeText"></span>
+			</div>
+
+			<!-- CTA -->
+			<div id="cta_btn">
+				<div id="cta_gradient"></div>
+				<span class="cta-text"></span>
+			</div>
+
+			<!-- LEGAL -->
+			<div id="legal_details">
+				<p id="legal_details_text">legal details here.</p>
+			</div>
+
+			<p id="legal_text">
+				<span id="legal_ia_text"></span>
+			</p>
+
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+	<script src="source/scripts.js"></script>
+	 <script>
+		var myFT = {instantAds:
+							{
+							clickTagURL:"https://www.uscellular.com",   
+							showSnipe:"yes",   
+							snipeText:"NEW PLAN",   
+							bgAsset:"images/blueDiagonal.svg",   
+							holderPosSize:"0px,0px,300px,250px",   
+							lockupEndTransform:"-51,32,0.9,50% 50%",   
+							text1a:"Verizon",   
+							text1aFontProps:"36px,normal,#000",   
+							text1aPosSize:"0px,50px,100%,auto",			
+							text1b:"<span class='medium'>PAY</span>",   
+							text1bFontProps:"37px,normal,#f31b2f",   
+							text1bPosSize:"0px,112px,100%,auto"  ,   
+							text1c:"<span class='book'>FOR UNUSED DATA</span>",   
+							text1cFontProps:"16px,normal,#f31b2f",   
+							text1cPosSize:"0px,157px,100%,auto"		,			
+							text2a:"<span class='medium'>GET PAID BACK</span>",   
+							text2aFontProps:"36px,normal,#00497b",   
+							text2aPosSize:"0px,111px,100%,auto"		,			
+							text2b:"<span class='book'>FOR UNUSED DATA</span>",   
+							text2bFontProps:"17px,normal,#00497b",   
+							text2bPosSize:"0px,158px,100%,auto",			
+							text3a:"UNLIMITED WITH PAYBACK",   
+							text3aFontProps:"21px,normal,#00497b",   
+							text3aPosSize:"0px,87px,100%,au,to",
+							text3b:"exclusively at",   
+							text3bFontProps:"14px,normal,#00497b",   
+							text3bPosSize:"0px,114px,100%,auto",   
+							text3c:"U.S. CELLULAR",   
+							text3cFontProps:"37px,normal,#00497b",   
+							text3cPosSize:"-1px,131px,100%,auto",			
+							text4a:"<span class='book'>SAVE UP TO <sup>$</sup>240/YR.</span>",   
+							text4aFontProps:"26px,normal,#00497b",   
+							text4aPosSize:"0px,112px,100%,au,to",
+							text4b:"<span class ='book'>VS. VERIZON</span>",   
+							text4bFontProps:"14px,normal,#00497b",   
+							text4bPosSize:"0px,147px,100%,auto",   
+							text4c:"<span class='book'>On a single line.</span>",   
+							text4cFontProps:"10px,normal,#000000",   
+							text4cPosSize:"-1px,170px,100%,auto",   
+							showLines:"yes",   
+							line1PosSize:"31px,123px,69px,1px,#ee3040",   
+							line2PosSize:"203px,123px,69px,1px,#ee3040"	,			
+							line3PosSize:"31px,175px,69px,1px,#ee3040",   
+							line4PosSize:"203px,175px,69px,1px,#ee3040",   
+							featuredDevice:"images/airpods.png",   
+							featuredDeviceStartPosSize:"111px,116px,72px,124px",   
+							featuredDeviceEndPosSize:"196px,57px,86px,90px",   
+							featuredLogo:"images/Apple_Watch_Logo_4x.png",   
+							featuredLogoStartPosSize:"121px,216px,61px,22px",   
+							featuredLogoEndPosSize:"213px,156px,52px,18.5px",   
+							legalText:"Legal >",   
+							legalTextFontProps:"8px,8px,#252525,0.75,center",   
+							legalTextPosSize:"-1px,198px,300px,auto",   
+							legalDetailsText:"Taxes and certain charges such  as RCRF, USF and 911 apply. Not all colors and models of Apple Watch  available. Some bands are sold separately. Apple Watch Series 3 (GPS +  Cellular) requires iPhone 6 or later with iOS 11 or later plus  connection to the 4GLTE network for data service and to the VoLTE  network for a voice communication. 4GLTE and VoLTE service not available  in all markets. Total Plan required. Terms, conditions and restrictions apply. 4G LTE service may be provided through King Street Wireless, a partner of U.S. Cellular.  LTE is a trademark of ETSI.",   
+							legalDetailsTextPosSize:"0px,132px,300px,auto",   
+							ctaFontSize:"16px",   
+							ctaPosSize:"auto,212px,100%,36px",   
+							ctaText:"SHOP NOW <span class='ctaArrow'>></span>"
+							},
+          $: function(str) {
+            return $(str);
+          }, 
+          tracker: function(event, eventDiscription, eventDiscription2) {
+            try {
+                console.log(event, " has fired : ",  eventDiscription, " :: ", eventDiscription2)
+            }catch(err) {
+                console.log("error in trackings")
+            }
+          },
+          applyButton: function(thisElement, functionToCall){
+              this.$(thisElement).on('click', function(event){
+                  event.stopPropagation();
+                  functionToCall();
+              })
+              //this.$(thisElement).css("cursor","pointer");
+          },
+          applyClickTag: function(thisElement, thisNum, thisURL){
+              this.$(thisElement).on('click', function(event){
+                  event.stopPropagation();
+                  window.open(thisURL,'_blank');
+              })
+              //this.$(thisElement).css("cursor","pointer");
+          },
+          on: function(thisEventName, thisFunc){
+              //console.log(thisEventName, thisFunc)
+              if(thisEventName == "instantads"){
+                  thisFunc();
+              }
+          }
+        }
+
+        window.onload = function(){
+            intializeRichload();
+        }
+    </script>
+    <!--<script src="source/scripts.js"></script>-->
+</body>
+
+</html>

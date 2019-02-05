@@ -1,0 +1,163 @@
+
+#hotspot {
+    position: absolute;
+    top:0px;left:0px;
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+    z-index: 150;
+} 
+
+#container{
+  position: fixed;
+  left: 0;
+  top: 0;
+	overflow: hidden;
+	width:298px;
+	height: 248px;
+	   border:1px solid #000000;
+}
+
+.startZero{
+	opacity:0;
+}
+
+#whiteBorder{
+	position: absolute;
+top: -1px;
+left: -3px;
+width: 302px;
+height: 252px;
+}
+
+#bottle{
+position: absolute;
+  background-image: url(../img/Bottle.png);
+	background-size: contain;
+  position: absolute;
+  top:1px;
+	left:235px;
+  width: 61px;
+  height: 235px;
+  z-index: 10;
+
+}
+#mountain{
+	background-image: url(../img/mountain.png);
+	top: 163px;
+	width: 275px;
+	height: 72px;
+	position: absolute;
+}
+#sunContainer{
+		position: absolute;
+	width:300px;
+	height:250px;
+	top:0;
+
+}
+#sunRays{
+	width:300px;
+	height:250px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+#sunRaysOrange{
+	width:600px;
+	height:600px;
+	position: absolute;
+	top: -70px;
+left: -161px;
+
+}
+#recipie{
+	background-image: url(../img/recipe.png);
+	width:122px;
+	height:224px;
+	left: 3px;
+	top: 9px;
+	position: absolute;
+	background-repeat: no-repeat;
+	
+}
+#sun{
+	background-image:url(../img/Sun.png);
+	top:9px;
+	left:0;
+	position: absolute;
+	width:282px;
+	height:208px;
+}
+#celebra{
+	background-image: url(../img/Celebra.png);
+	width:137px;
+	height:64px;
+	left:65px;
+	top:14px;
+	position: absolute;
+	
+}
+#sol{
+	background-image: url(../img/solway.png);
+	background-size: contain;
+	width:116px;
+	height: 106px;
+	position: absolute;
+	top: 55px;
+	left: 77px;
+	
+}
+#sunGradient{
+position: absolute;
+	width: 300px;
+height: 250px;
+top: 8px;
+left: -31px;
+	
+}
+.Rounded_Rectangle_2 {
+  border-width: 0.5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 4px;
+  background-image: -moz-linear-gradient( -90deg, rgb(177,17,22) 0%, rgb(121,1,1) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(177,17,22) 0%, rgb(121,1,1) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(177,17,22) 0%, rgb(121,1,1) 100%);
+  position: absolute;
+  left: 2194px;
+  top: 463px;
+  width: 75px;
+  height: 26px;
+  z-index: 80;
+}
+
+#ctaText{
+	width:55px;
+	height:15px;
+	position: absolute;
+	background-image: url(../img/ctaTxt.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 10px;
+	top: 8px;
+}
+#ctaContainer{
+		position: absolute;
+	width:75px;
+	height:26px;
+	left:26px;
+	top:199px;
+	 border-width: 0.5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 4px;
+  background-image: -moz-linear-gradient( -90deg, rgb(177,17,22) 0%, rgb(121,1,1) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(177,17,22) 0%, rgb(121,1,1) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(177,17,22) 0%, rgb(121,1,1) 100%);
+}
+.legal{
+	position: absolute;
+	bottom: -3px;
+left: 6px;
+}
