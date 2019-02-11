@@ -1,0 +1,12 @@
+{
+  "copy1":"INTEL-<span class='p'>P</span>OWERED 2 IN 1<span class='s'>s</span>",
+  "copy2_1":"4K",
+  "copy2_2":"STREAM IN ULTRA HD",
+  "copy3":"EVERY SCENE IN <br>CINEMA-QUALITY HD",
+  "copy4":"INTEL-<span class='p'>P</span>OWERED 2 IN 1<span class='s'>s</span>",
+  "copy5_1":"4K",
+  "copy5_2":"STREAM IN ULTRA HD",
+  "cta":"Find your 2 in 1<span>></span>",
+  "legal_btn":"LEGAL",
+  "legal":"© 2016 Intel Corporation. Intel, the Intel logo, Intel Core, and Intel Inside are trademarks of Intel Corporation in the U.S. and/or other countries."
+}
