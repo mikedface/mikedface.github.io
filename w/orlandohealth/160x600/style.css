@@ -1,0 +1,229 @@
+#mockup{
+	position:absolute;
+}
+#background {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48194d+0,922281+53,802a74+99 */
+background: #48194d; /* Old browsers */
+background: -moz-linear-gradient(top,  #48194d 0%, #922281 53%, #802a74 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #48194d 0%,#922281 53%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #48194d 0%,#922281 53%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', endColorstr='#802a74',GradientType=0 ); /* IE6-9 */
+
+width:300px;
+height:600px;
+position:absolute;
+
+
+}
+.mockupContainer{
+	left: 968px;
+	top: 334px;
+}
+#container_dc{
+	width:158px;
+	height:598px;
+	position: absolute;
+	border:1px black solid;
+	overflow: hidden;	
+	
+}
+
+#hotspot{
+	width:160px;
+	height:600px;
+	position: absolute;
+	top:0;
+	left:0;
+	cursor:pointer;
+    z-index:11;
+}
+#box{
+	background-size:contain;
+	background-repeat: no-repeat;
+	left: 171px;
+  top: 87px;
+  width: 87px;
+  height: 132px;	
+	position: absolute;
+	
+}
+#bar{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#44194a+0,5d2c5d+99 */
+background: #44194a; /* Old browsers */
+background: -moz-linear-gradient(top, #44194a 0%, #5d2c5d 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #44194a 0%,#5d2c5d 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #44194a 0%,#5d2c5d 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', endColorstr='#5d2c5d',GradientType=0 ); /* IE6-9 */
+  position: absolute;
+  left: 0px;
+  top: 329px;
+  width: 160px;
+  height: 271px;
+  z-index: 4;
+}
+
+#girl1{
+
+  background-image: url("img/girl1.png");
+  position: absolute;
+left:-50px;
+  top: 0px;
+  width: 283px;
+  height: 349px;
+  z-index: 3;
+
+
+}
+#people1{
+
+  background-image: url("img/people2.png");
+  position: absolute;
+    lefT:-100px;
+  top: 10px;
+  width: 282px;
+  height: 413px;
+  z-index: 3;
+
+
+}
+#people2{
+
+  background-image: url("img/people1.png");
+  position: absolute;
+left:-50px;
+    top: 10px;
+  width: 261px;
+  height: 510px;
+  z-index: 3;
+
+
+}
+#people3{
+
+  background-image: url("img/people3.png");
+  position: absolute;
+    left:-80px;
+  
+  top: 200px;
+  width: 260px;
+  height: 237px;
+  z-index: 3;
+
+
+}
+#people4{
+
+  background-image: url("img/people4.png");
+  position: absolute;
+left:-80px;
+  top: 40px;
+  width: 300px;
+  height: 388px;
+  z-index: 3;
+
+
+}
+#logo{
+	background-image: url(img/logo.svg);
+  position: absolute;
+ left: 40px;
+    top: 554px;
+    width: 75px;
+    height: 58px;
+	background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+#text1{
+  background-image: url(img/text1.png);
+  position: absolute;
+ 	 left: 15px;
+  top: 371px;
+  width: 133px;
+  height: 67px;
+    z-index: 5;
+}
+#text2{
+  background-image: url(img/text2.png);
+  position: absolute;
+ 	 left: 47px;
+  top: 456px;
+  width: 104px;
+  height: 27px;
+    z-index: 8;
+}
+#text3{
+  background-image: url(img/text3.png);
+  position: absolute;
+ 	 left: 47px;
+  top: 456px;
+  width: 108px;
+  height: 27px;
+    z-index: 8;
+}
+#text4{
+  background-image: url(img/text4.png);
+  position: absolute;
+ 	 left: 47px;
+  top: 456px;
+  width: 110px;
+  height: 26px;
+    z-index: 8;
+}
+#text5{
+  background-image: url(img/text5.png);
+  position: absolute;
+ 	 left: 38px;
+  top: 456px;
+  width: 119px;
+  height: 27px;
+    z-index: 8;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#cta{
+  background-color: rgb(245, 220, 51);
+  left: 24px;
+    top: 506px;
+    width: 111px;
+    height: 30px;
+    position: absolute;
+  z-index: 6;
+    overflow: hidden;
+}
+
+.ctaTxt{
+    left:13px;
+    top:10px;
+    position: absolute;
+}
+.icon {
+  background-image: url("icon.png");
+  position: absolute;
+  left: 966px;
+  top: 821px;
+  width: 41px;
+  height: 46px;
+  z-index: 21;
+}
+
+#icon1,#icon2,#icon3{
+    z-index: 8;
+     width: 30px;
+  height: 32px;
+    left:7px;
+    top:450px;
+    position: absolute; 
+}
+#icon4{
+   
+
+  position: absolute;
+  
+    left: 7px;
+    top: 450px;
+    width: 22px;
+    height: 57px;
+    z-index: 9;
+}

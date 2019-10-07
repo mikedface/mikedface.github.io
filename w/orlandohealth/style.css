@@ -1,0 +1,108 @@
+body{
+background-repeat: repeat;
+font-family: 'Source Sans Pro', sans-serif;
+margin: 0px;
+text-align: center;
+}
+
+a{
+text-decoration: none;
+outline: none;
+display: inline-block;
+margin: 0px 5px;   
+}
+iframe {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+p{
+margin: 0px;
+}
+
+li{
+float: left;
+margin: 0 10px;
+cursor: pointer;
+color:#cccccc;
+}
+
+li:hover{
+color:#444444;
+}
+
+.ad_title{
+background-color: transparent;
+cursor: pointer;
+outline: none;
+width: 25px;
+height: 25px;
+margin: 0 15px;
+border-radius: 50%;
+-webkit-transition: 0.1s ease-in-out;
+-moz-transition: 0.1s ease-in-out;
+-o-transition: 0.1s ease-in-out;
+transition: 0.1s ease-in-out;
+}
+
+a.iframe.ad_title {
+    background-color: rgb(204, 204, 204); 
+}
+
+/*
+#ad_wrap #ad_frame img{
+	width:100% !important;
+}
+*/
+
+header{
+width: 95%;
+height: 70px;
+margin: 0 auto;
+border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#logo{
+position: absolute;
+top:15px;
+width:300px;
+height:48px;
+background-repeat: no-repeat;
+background-size: contain;
+    background-position: center;
+}
+
+#adSize{
+margin: 0 auto;
+width:100%;
+font-size: 26px;
+font-weight: 300;
+letter-spacing: 2px;
+color: #222;
+padding-top: 25px;
+}
+
+#btn_wrap{
+position: relative;
+width: 95%;
+margin: 10px auto 50px auto;
+}
+
+#ad_wrap{
+margin: 10px;
+}
+
+#cncptName{
+position: absolute;
+right:40px;
+top: 20px;
+list-style-type: none;
+display: block;
+}
+
+.play{
+visibility: hidden;
+}
+
+.circle{
+    fill:#cccccc;
+}

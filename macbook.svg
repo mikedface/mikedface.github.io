@@ -29,7 +29,7 @@
 				</clipPath>
 				<g style="clip-path:url(#SVGID_2_);">
 					
-						<image style="overflow:visible;" width="1299" height="933" xlink:href="frostedflakes.png"  transform="matrix(0.3857 0 0 0.3847 91.9631 37.7057)">
+						<image style="overflow:visible;" width="1299" height="933" id="frootloops" xlink:href="images/frootloops.png"  transform="matrix(0.3861 0 0 0.3513 95.9665 35.0599)">
 					</image>
 				</g>
 				<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:none;stroke:#666565;stroke-miterlimit:10;"/>

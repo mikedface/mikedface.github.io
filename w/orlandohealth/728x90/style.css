@@ -1,0 +1,237 @@
+#mockup{
+	position:absolute;
+}
+#background {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48194d+0,922281+53,802a74+99 */
+background: #48194d; /* Old browsers */
+background: -moz-linear-gradient(top,  #48194d 0%, #922281 53%, #802a74 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #48194d 0%,#922281 53%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #48194d 0%,#922281 53%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', endColorstr='#802a74',GradientType=0 ); /* IE6-9 */
+
+width:728px;
+height:90px;
+position:absolute;
+
+
+}
+.mockupContainer{
+	left: 968px;
+	top: 334px;
+}
+#container_dc{
+	width:726px;
+	height:88px;
+	position: absolute;
+	border:1px black solid;
+	overflow: hidden;	
+	
+}
+
+#hotspot{
+	width:728px;
+	height:90px;
+	position: absolute;
+	top:0;
+	left:0;
+	cursor:pointer;
+    z-index:11;
+}
+
+#bar{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#44194a+0,5d2c5d+99 */
+background: #44194a; /* Old browsers */
+background: -moz-linear-gradient(top, #44194a 0%, #5d2c5d 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #44194a 0%,#5d2c5d 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #44194a 0%,#5d2c5d 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', endColorstr='#5d2c5d',GradientType=0 ); /* IE6-9 */
+  position: absolute;
+  left: 0px;
+  top: 135px;
+  width: 301px;
+  height: 116px;
+  z-index: 4;
+}
+
+
+#girl1{
+
+  background-image: url("img/girl1.png");
+  position: absolute;
+  left: 341px;
+  top: 0px;
+  width: 151px;
+  height: 90px;
+  z-index: 3;
+
+
+}
+#people1{
+
+  background-image: url("img/people2.png");
+  position: absolute;
+  left: 220px;
+  top: 0px;
+  width: 250px;
+  height: 91px;
+  z-index: 3;
+
+
+}
+#people2{
+
+  background-image: url("img/people1.png");
+  position: absolute;
+ left: 310px;
+    top: 0px;
+  width: 131px;
+  height: 90px;
+  z-index: 3;
+
+
+}
+#people3{
+
+  background-image: url("img/people3.png");
+  position: absolute;
+  left: 313px;
+  top: 0px;
+  width: 155px;
+  height: 90px;
+  z-index: 3;
+
+
+}
+#people4{
+
+  background-image: url("img/people4.png");
+  position: absolute;
+  left: 328px;
+  top: 0px;
+  width: 131px;
+  height: 90px;
+  z-index: 3;
+
+
+}
+.OH_Wordmark_KO {
+  background-image: url("OH_Wordmark_KO.png");
+  position: absolute;
+  left: 2134px;
+  top: 702px;
+  width: 97px;
+  height: 35px;
+  z-index: 88;
+}
+
+#logo{
+	background-image: url(img/logo.svg);
+  position: absolute;
+  left: 481px;
+  top: 27px;
+   width: 97px;
+  height: 35px;
+	background-size: contain;
+    z-index: 5;
+    background-repeat: no-repeat;
+}
+
+#text1{
+  background-image: url(img/text1.png);
+  position: absolute;
+  left: 38px;
+  top: 4px;
+  width: 269px;
+  height: 78px;
+}
+#text2{
+  background-image: url(img/text2.png);
+  position: absolute;
+ 	 left: 94px;
+  top: 20px;
+  width: 200px;
+  height: 49px;
+    z-index: 2;
+}
+#text3{
+  background-image: url(img/text3.png);
+  position: absolute;
+ 	 left: 101px;
+  top: 24px;
+  width: 215px;
+  height: 49px;
+    z-index: 2;
+}
+#text4{
+  background-image: url(img/text4.png);
+  position: absolute;
+ 	 left: 104px;
+  top: 20px;
+  width: 221px;
+  height: 49px;
+    z-index: 2;
+}
+#text5{
+  background-image: url(img/text5.png);
+  position: absolute;
+ 	 left: 95px;
+  top: 23px;
+  width: 234px;
+  height: 49px;
+    z-index: 2;
+}
+#cta{
+  background-color: rgb(245, 220, 51);
+  position: absolute;
+  left: 602px;
+  top: 33px;
+    width: 116px;
+  height: 28px;
+  z-index: 6;
+    overflow: hidden;
+}
+.Rectangle_1 {
+  background-color: rgb(245, 220, 51);
+  position: absolute;
+  left: 2252px;
+  top: 706px;
+  width: 116px;
+  height: 28px;
+  z-index: 90;
+}
+
+.ctaTxt{
+    left:13px;
+    top:9px;
+    position: absolute;
+}
+.icon {
+  background-image: url("icon.png");
+  position: absolute;
+  left: 966px;
+  top: 821px;
+  width: 41px;
+  height: 46px;
+  z-index: 21;
+}
+
+#icon1,#icon2,#icon3{
+    z-index: 8;
+     width: 59px;
+  height: 63px;
+    left:20px;
+    top:10px;
+    position: absolute; 
+}
+
+#icon4{
+   
+
+  position: absolute;
+ left:27px;
+    top:10px;
+  width: 42px;
+  height:59px;
+  z-index: 79;
+
+}
