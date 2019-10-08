@@ -25,7 +25,7 @@ position:absolute;
 	position: absolute;
 	border:1px black solid;
 	overflow: hidden;	
-	
+	opacity: 0;
 }
 
 #hotspot{
@@ -147,8 +147,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
   position: absolute;
  	 left: 25px;
   top: 50px;
-  width: 195px;
-  height: 99px;
+  width: 185px;
+  height: 65px;
 }
 #text2{
   background-image: url(img/text2.png);
