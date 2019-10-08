@@ -24,14 +24,15 @@ startAnimation = function() {
     
    
     		adTl.add("startAd")
+        .set("#container_dc",{opacity:1})
 				.set("#girl",{y:0,scale:1,rotation:0})
-        .set("#bar",{top:"329px"})
+        .set("#bar",{top:"303px"})
          .from("#cta", .75,{ease: Bounce.easeOut, scale:0 })
         .from("#text1",.75,{opacity:0, ease:Sine.easeInOut},"in1+=.25")
         .from("#girl1",.85,{x:-400,ease:Sine.easeOut},"in1")
         .to("#girl1", .35,{x:300},"+=2")
         .to("#text1", .25,{opacity:0},"-=.34")
-        .to("#bar",.5,{top:"423px", ease:Sine.easeInOut})
+        //.to("#bar",.5,{top:"423px", ease:Sine.easeInOut})
     
         .from("#people1",.85,{x:-400,ease:Sine.easeOut},"in2")
        .from("#text2", .5,{opacity:0},"in2")
@@ -47,7 +48,7 @@ startAnimation = function() {
         .to("#people2",.85,{x:400,ease:Sine.easeOut},"out3")
         .to("#text3,#icon2", .25,{opacity:0},"out3")
 
-     .from("#people3",.85,{x:-400,ease:Sine.easeOut},"in4")
+     .from("#people3",.85,{x:-200,ease:Sine.easeOut},"in4")
        .from("#text4", .5,{opacity:0},"in4")
         .from("#icon3", .5,{ease: Bounce.easeOut, scale:0 },"in4")
     .add("out4","+=2")

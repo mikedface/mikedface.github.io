@@ -25,6 +25,7 @@ position:absolute;
 	position: absolute;
 	border:1px black solid;
 	overflow: hidden;	
+    opacity:0;
 	
 }
 
@@ -148,8 +149,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
   position: absolute;
  	 left: 24px;
   top: 371px;
-  width: 247px;
-  height: 126px;
+  width: 253px;
+  height:89px;
     z-index: 5;
 }
 #text2{

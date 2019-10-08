@@ -139,10 +139,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #text1{
   background-image: url(img/text1.png);
   position: absolute;
-  left: 38px;
-  top: 4px;
-  width: 269px;
-  height: 78px;
+  left: 32px;
+  top: 6px;
+  width: 208px;
+  height: 74px;
 }
 #text2{
   background-image: url(img/text2.png);

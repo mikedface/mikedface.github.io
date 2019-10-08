@@ -24,6 +24,7 @@ startAnimation = function() {
     
    
     		adTl.add("startAd")
+    .set("#container_dc",{opacity:1})
 				.set("#girl",{y:0,scale:1,rotation:0})
        
          .from("#cta", .75,{ease: Bounce.easeOut, scale:0 })

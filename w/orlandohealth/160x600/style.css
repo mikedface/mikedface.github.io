@@ -25,6 +25,7 @@ position:absolute;
 	position: absolute;
 	border:1px black solid;
 	overflow: hidden;	
+    opacity:0;
 	
 }
 
@@ -58,7 +59,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
   left: 0px;
   top: 329px;
   width: 160px;
-  height: 271px;
+  height: 300px;
   z-index: 4;
 }
 
@@ -102,11 +103,11 @@ left:-50px;
 
   background-image: url("img/people3.png");
   position: absolute;
-    left:-80px;
+    left:0px;
   
-  top: 200px;
-  width: 260px;
-  height: 237px;
+  top: 47px;
+  width:160px;
+  height: 304px;
   z-index: 3;
 
 
@@ -115,10 +116,10 @@ left:-50px;
 
   background-image: url("img/people4.png");
   position: absolute;
-left:-80px;
+left:4px;
   top: 40px;
-  width: 300px;
-  height: 388px;
+  width:156px;
+  height: 275px;
   z-index: 3;
 
 
@@ -126,10 +127,10 @@ left:-80px;
 #logo{
 	background-image: url(img/logo.svg);
   position: absolute;
- left: 40px;
-    top: 554px;
-    width: 75px;
-    height: 58px;
+ left: 16px;
+    top: 534px;
+    width: 127px;
+    height: 55px;
 	background-size: contain;
     background-repeat: no-repeat;
     z-index: 5;
@@ -138,46 +139,46 @@ left:-80px;
 #text1{
   background-image: url(img/text1.png);
   position: absolute;
- 	 left: 15px;
+ 	 left: 7px;
   top: 371px;
-  width: 133px;
-  height: 67px;
+  width: 147px;
+  height: 52px;
     z-index: 5;
 }
 #text2{
   background-image: url(img/text2.png);
   position: absolute;
- 	 left: 47px;
-  top: 456px;
-  width: 104px;
-  height: 27px;
+ 	 left: 18px;
+  top: 385px;
+  width: 124px;
+  height: 36px;
     z-index: 8;
 }
 #text3{
   background-image: url(img/text3.png);
   position: absolute;
- 	 left: 47px;
-  top: 456px;
-  width: 108px;
-  height: 27px;
+ 	 left: 18px;
+  top: 385px;
+  width: 133px;
+  height: 36px;
     z-index: 8;
 }
 #text4{
   background-image: url(img/text4.png);
   position: absolute;
- 	 left: 47px;
-  top: 456px;
-  width: 110px;
-  height: 26px;
+ 	 left: 18px;
+  top: 385px;
+  width: 137px;
+  height: 36px;
     z-index: 8;
 }
 #text5{
   background-image: url(img/text5.png);
   position: absolute;
- 	 left: 38px;
-  top: 456px;
-  width: 119px;
-  height: 27px;
+ 	 left: 10px;
+  top: 385px;
+  width: 143px;
+  height: 34px;
     z-index: 8;
     background-size: contain;
     background-repeat: no-repeat;
@@ -185,7 +186,7 @@ left:-80px;
 #cta{
   background-color: rgb(245, 220, 51);
   left: 24px;
-    top: 506px;
+    top: 462px;
     width: 111px;
     height: 30px;
     position: absolute;
@@ -201,8 +202,8 @@ left:-80px;
 .icon {
   background-image: url("icon.png");
   position: absolute;
-  left: 966px;
-  top: 821px;
+  left:62px;
+    top:328px;
   width: 41px;
   height: 46px;
   z-index: 21;
@@ -212,8 +213,8 @@ left:-80px;
     z-index: 8;
      width: 30px;
   height: 32px;
-    left:7px;
-    top:450px;
+    left:62px;
+    top:328px;
     position: absolute; 
 }
 #icon4{
@@ -221,8 +222,8 @@ left:-80px;
 
   position: absolute;
   
-    left: 7px;
-    top: 450px;
+     left:62px;
+    top:328px;
     width: 22px;
     height: 57px;
     z-index: 9;

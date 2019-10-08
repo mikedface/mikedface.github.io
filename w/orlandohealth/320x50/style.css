@@ -25,7 +25,7 @@ position:absolute;
 	position: absolute;
 	border:1px black solid;
 	overflow: hidden;	
-	
+	opacity:0;
 }
 
 #hotspot{
@@ -140,8 +140,8 @@ left: 160px;
   position: absolute;
  	 left: 10px;
   top: 1px;
-  width: 142px;
-  height:42px;
+  width: 113px;
+  height:40px;
 }
 #text2{
   background-image: url(img/text2.png);
