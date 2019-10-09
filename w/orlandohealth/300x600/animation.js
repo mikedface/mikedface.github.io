@@ -32,7 +32,7 @@ startAnimation = function() {
         .from("#girl1",.85,{x:-400,ease:Sine.easeOut},"in1")
         .to("#girl1", .35,{x:300},"+=2")
         .to("#text1", .25,{opacity:0},"-=.34")
-        .to("#bar",.5,{top:"423px", ease:Sine.easeInOut})
+        //.to("#bar",.5,{top:"423px", ease:Sine.easeInOut})
     
         .from("#people1",.85,{x:-400,ease:Sine.easeOut},"in2")
        .from("#text2", .5,{opacity:0},"in2")

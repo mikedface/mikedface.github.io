@@ -4,9 +4,9 @@
 #background {
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48194d+0,922281+53,802a74+99 */
 background: #48194d; /* Old browsers */
-background: -moz-linear-gradient(top,  #48194d 0%, #922281 53%, #802a74 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #48194d 0%,#922281 53%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #48194d 0%,#922281 53%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top,  #511f4e 0%, #aa2584 33%, #802a74 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #511f4e 0%,#aa2584 33%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #511f4e 0%,#aa2584 33%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', endColorstr='#802a74',GradientType=0 ); /* IE6-9 */
 
 width:300px;
@@ -50,9 +50,9 @@ position:absolute;
 #bar{
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#44194a+0,5d2c5d+99 */
 background: #44194a; /* Old browsers */
-background: -moz-linear-gradient(top, #44194a 0%, #5d2c5d 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #44194a 0%,#5d2c5d 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #44194a 0%,#5d2c5d 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top, #4d1e4b 0%, #692d5f 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #44d1e4b4194a 0%,#692d5f 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4d1e4b 0%,#692d5f 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', endColorstr='#5d2c5d',GradientType=0 ); /* IE6-9 */
   position: absolute;
   left: 0px;
@@ -75,10 +75,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 
   background-image: url("img/girl1.png");
   position: absolute;
-  left: 210px;
+  left: 117px;
   top: 0px;
-  width: 161px;
-  height: 203px;
+  width: 249px;
+  height: 196px;
   z-index: 3;
 
 
@@ -145,15 +145,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #text1{
   background-image: url(img/text1.png);
   position: absolute;
- 	 left: 25px;
-  top: 50px;
-  width: 185px;
-  height: 65px;
+ 	 left: 16px;
+  top: 42px;
+  width: 186px;
+  height: 117px;
 }
 #text2{
   background-image: url(img/text2.png);
   position: absolute;
- 	 left: 104px;
+ 	 left: 85px;
   top: 150px;
   width: 168px;
   height: 44px;
@@ -162,7 +162,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #text3{
   background-image: url(img/text3.png);
   position: absolute;
- 	 left: 104px;
+ 	 left: 73px;
   top: 150px;
   width: 180px;
   height: 46px;
@@ -171,7 +171,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #text4{
   background-image: url(img/text4.png);
   position: absolute;
- 	 left: 104px;
+ 	 left: 74px;
   top: 150px;
   width: 189px;
   height: 46px;
@@ -180,7 +180,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #text5{
   background-image: url(img/text5.png);
   position: absolute;
- 	 left: 65px;
+ 	 left: 63px;
   top: 150px;
   width: 209px;
   height: 45px;
@@ -189,7 +189,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #cta{
   background-color: rgb(245, 220, 51);
   position: absolute;
-  left: 183px;
+  left: 178px;
   top: 210px;
   width: 107px;
   height: 26px;
@@ -212,19 +212,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
   z-index: 21;
 }
 
-#icon1,#icon2,#icon3{
+#icon1{
     z-index: 8;
      width: 41px;
   height: 46px;
-    left:40px;
-    top:146px;
+    left:25px;
+    top:147px;
     position: absolute; 
 }
+
+#icon2{
+     z-index: 8;
+     width: 37px;
+  height: 45px;
+    left:28px;
+    top:153px;
+    position: absolute; 
+    
+}
+#icon3{
+    z-index: 8;
+     width: 48px;
+  height: 45px;
+    left:18px;
+    top:147px;
+    position: absolute; }
 #icon4{
    
 
   position: absolute;
-  left:23px;
+  left:20px;
   top: 151px;
   width: 28px;
   height: 44px;

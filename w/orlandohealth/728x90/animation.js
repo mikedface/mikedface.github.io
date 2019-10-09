@@ -25,11 +25,12 @@ startAnimation = function() {
    
     		adTl.add("startAd")
     .set("#container_dc",{opacity:1})
-				.set("#girl",{y:0,scale:1,rotation:0})
+.set("#girl",{y:0,scale:1,rotation:0})
         .set("#bar",{top:"194px"})
          .from("#cta", .75,{ease: Bounce.easeOut, scale:0 })
         .from("#text1",.75,{opacity:0,ease:Sine.easeInOut},"in1+=.25")
         .from("#girl1",.85,{x:-520,ease:Sine.easeOut},"in1")
+   // .pause(1000)
         .to("#girl1", .35,{x:400,opacity:0},"+=2")
         .to("#text1", .25,{opacity:0},"-=.34")
         .to("#bar",.5,{top:"135px", ease:Sine.easeInOut})

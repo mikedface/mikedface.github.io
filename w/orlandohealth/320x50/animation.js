@@ -25,17 +25,17 @@ startAnimation = function() {
    
     		adTl.add("startAd")
     .set("#container_dc",{opacity:1})
-				.set("#girl",{y:0,scale:1,rotation:0})
+				
        
-         .from("#cta", .75,{ease: Bounce.easeOut, scale:0 })
+         
         .from("#text1",.75,{opacity:0, ease:Sine.easeInOut},"in1+=.25")
         
         .add("in2","+=2")
         .to("#text1", .25,{opacity:0},"in2")
-       
-       
-       .from("#text2", .5,{opacity:0})
-        .from("#icon1", .5,{opacity:0, x:-200})
+       .from("#cta", .75,{ease: Bounce.easeOut, scale:0 },"logo")
+        .from("#logo", .75,{ease: Bounce.easeOut, scale:0 },"logo")
+       .from("#text2", .5,{opacity:0},"logo")
+        .from("#icon1", .5,{opacity:0, x:-200},"logo")
     .add("out2","+=2")
         .to("#text2,#icon1", .25,{opacity:0},"out2")
     

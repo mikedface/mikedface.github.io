@@ -4,9 +4,9 @@
 #background {
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48194d+0,922281+53,802a74+99 */
 background: #48194d; /* Old browsers */
-background: -moz-linear-gradient(top,  #48194d 0%, #922281 53%, #802a74 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #48194d 0%,#922281 53%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #48194d 0%,#922281 53%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top,  #511f4e 0%, #aa2584 47%, #802a74 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #511f4e 0%,#aa2584 47%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #511f4e 0%,#aa2584 47%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', endColorstr='#802a74',GradientType=0 ); /* IE6-9 */
 
 width:300px;
@@ -51,9 +51,9 @@ position:absolute;
 #bar{
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#44194a+0,5d2c5d+99 */
 background: #44194a; /* Old browsers */
-background: -moz-linear-gradient(top, #44194a 0%, #5d2c5d 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #44194a 0%,#5d2c5d 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #44194a 0%,#5d2c5d 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top, #4d1e4b 0%, #692d5f 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #44d1e4b4194a 0%,#692d5f 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4d1e4b 0%,#692d5f 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', endColorstr='#5d2c5d',GradientType=0 ); /* IE6-9 */
   position: absolute;
   left: 0px;
@@ -67,10 +67,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 
   background-image: url("img/girl1.png");
   position: absolute;
-left:-50px;
-  top: 0px;
-  width: 283px;
-  height: 349px;
+left:10px;
+  top: 12px;
+  width: 232px;
+  height: 290px;
   z-index: 3;
 
 
@@ -79,10 +79,10 @@ left:-50px;
 
   background-image: url("img/people2.png");
   position: absolute;
-    lefT:-100px;
-  top: 10px;
-  width: 282px;
-  height: 413px;
+    lefT:0px;
+  top: 30px;
+  width: 160px;
+  height: 276px;
   z-index: 3;
 
 
@@ -105,7 +105,7 @@ left:-50px;
   position: absolute;
     left:0px;
   
-  top: 47px;
+  top: 10px;
   width:160px;
   height: 304px;
   z-index: 3;
@@ -128,7 +128,7 @@ left:4px;
 	background-image: url(img/logo.svg);
   position: absolute;
  left: 16px;
-    top: 534px;
+    top: 531px;
     width: 127px;
     height: 55px;
 	background-size: contain;
@@ -139,10 +139,10 @@ left:4px;
 #text1{
   background-image: url(img/text1.png);
   position: absolute;
- 	 left: 7px;
-  top: 371px;
-  width: 147px;
-  height: 52px;
+ 	 left: 15px;
+  top: 327px;
+  width: 132px;
+  height: 112px;
     z-index: 5;
 }
 #text2{
@@ -185,17 +185,17 @@ left:4px;
 }
 #cta{
   background-color: rgb(245, 220, 51);
-  left: 24px;
+  left: 15px;
     top: 462px;
-    width: 111px;
-    height: 30px;
+    width: 128px;
+    height:32px;
     position: absolute;
   z-index: 6;
     overflow: hidden;
 }
 
 .ctaTxt{
-    left:13px;
+    left:11px;
     top:10px;
     position: absolute;
 }
@@ -209,9 +209,25 @@ left:4px;
   z-index: 21;
 }
 
-#icon1,#icon2,#icon3{
+#icon1{
+    z-index: 8;
+     width: 35px;
+  height: 32px;
+    left:60px;
+    top:326px;
+    position: absolute; 
+}
+#icon2{
     z-index: 8;
      width: 30px;
+  height: 32px;
+    left:62px;
+    top:328px;
+    position: absolute; 
+}
+#icon3{
+    z-index: 8;
+     width: 40px;
   height: 32px;
     left:62px;
     top:328px;
@@ -223,8 +239,8 @@ left:4px;
   position: absolute;
   
      left:62px;
-    top:328px;
-    width: 22px;
+    top: 320px;
+    width: 27px;
     height: 57px;
     z-index: 9;
 }

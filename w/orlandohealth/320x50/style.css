@@ -2,11 +2,10 @@
 	position:absolute;
 }
 #background {
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48194d+0,922281+53,802a74+99 */
 background: #48194d; /* Old browsers */
-background: -moz-linear-gradient(top,  #48194d 0%, #922281 53%, #802a74 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #48194d 0%,#922281 53%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #48194d 0%,#922281 53%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top,  #511f4e 0%, #aa2584 50%, #802a74 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #511f4e 0%,#aa2584 50%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #511f4e 0%,#aa2584 50%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', endColorstr='#802a74',GradientType=0 ); /* IE6-9 */
 
 width:320px;
@@ -48,13 +47,11 @@ position:absolute;
 	
 }
 #bar{
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#44194a+0,5d2c5d+99 */
-background: #44194a; /* Old browsers */
-background: -moz-linear-gradient(top, #44194a 0%, #5d2c5d 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #44194a 0%,#5d2c5d 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #44194a 0%,#5d2c5d 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', endColorstr='#5d2c5d',GradientType=0 ); /* IE6-9 */
-  position: absolute;
+  background: #48194d; /* Old browsers */
+background: -moz-linear-gradient(top,  #511f4e 0%, #aa2584 33%, #802a74 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #511f4e 0%,#aa2584 33%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #511f4e 0%,#aa2584 33%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', endColorstr='#802a74',GradientType=0 ); /* IE6-9 */
   left: 0px;
   top: 135px;
   width: 301px;
@@ -126,7 +123,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #logo{
 	background-image: url(img/logo.svg);
   position: absolute;
-left: 160px;
+left: 247px;
     top: 14px;
     width: 57px;
     height: 28px;
@@ -138,18 +135,18 @@ left: 160px;
 #text1{
   background-image: url(img/text1.png);
   position: absolute;
-    left: 14px;
-  top: 5px;
-  width: 113px;
-  height:40px;
+    left: 12px;
+  top: 6px;
+  width: 296px;
+  height:34px;
 }
 #text2{
   background-image: url(img/text2.png);
   position: absolute;
- 	 left: 39px;
-  top: 12px;
-  width: 107px;
-  height: 28px;
+ 	 left: 33px;
+  top: 7px;
+  width: 122px;
+  height: 32px;
     z-index: 8;
 }
 #text3{
@@ -157,8 +154,8 @@ left: 160px;
   position: absolute;
   left: 39px;
   top: 12px;
-  width: 116px;
-  height: 28px;
+  width: 118px;
+  height: 29px;
     z-index: 8;
 }
 #text4{
@@ -166,26 +163,26 @@ left: 160px;
   position: absolute;
   left: 39px;
   top: 12px;
-  width: 112px;
+  width: 120px;
   height: 27px;
     z-index: 8;
 }
 #text5{
   background-image: url(img/text5.png);
   position: absolute;
- 	  left: 39px;
-  top: 12px;
-  width: 114px;
-  height: 25px;
+ 	left: 27px;
+    top: 12px;
+  width: 126px;
+  height: 28px;
     z-index: 8;
 }
 #cta{
   background-color: rgb(245, 220, 51);
   position: absolute;
-  left: 231px;
-  top: 17px;
-  width: 76px;
-  height: 19px;
+  left: 165px;
+  top: 16px;
+  width: 77px;
+  height: 18px;
   z-index: 6;
     overflow: hidden;
 }
@@ -207,7 +204,7 @@ left: 160px;
 
 #icon1,#icon2,#icon3{
     z-index: 8;
-     width: 28px;
+     width: 25px;
   height: 35px;
     left:4px;
     top:8px;
@@ -217,9 +214,9 @@ left: 160px;
    
 
   position: absolute;
-  left:10px;
-  top: 7px;
-  width: 21px;
+      left: 5px;
+    top: 12px;
+    width: 17px;
   height: 30px;
   z-index: 79;
 

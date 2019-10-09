@@ -26,7 +26,7 @@ startAnimation = function() {
     		adTl.add("startAd")
      .set("#container_dc",{opacity:1})
                 .set("#girl",{y:0,scale:1,rotation:0})
-        .set("#bar",{top:"194px"})
+        .set("#bar",{top:"192px"})
          .from("#cta", .75,{ease: Bounce.easeOut, scale:0 })
         .from("#text1",.75,{opacity:0, ease:Sine.easeInOut},"in1+=.25")
         .from("#girl1",.85,{x:-400,ease:Sine.easeOut},"in1")

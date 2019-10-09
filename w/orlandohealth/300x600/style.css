@@ -4,16 +4,14 @@
 #background {
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48194d+0,922281+53,802a74+99 */
 background: #48194d; /* Old browsers */
-background: -moz-linear-gradient(top,  #48194d 0%, #922281 53%, #802a74 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #48194d 0%,#922281 53%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #48194d 0%,#922281 53%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top,  #511f4e 0%, #aa2584 47%, #802a74 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #511f4e 0%,#aa2584 47%,#802a74 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #511f4e 0%,#aa2584 47%,#802a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', endColorstr='#802a74',GradientType=0 ); /* IE6-9 */
 
 width:300px;
 height:600px;
 position:absolute;
-
-
 }
 .mockupContainer{
 	left: 968px;
@@ -51,9 +49,9 @@ position:absolute;
 #bar{
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#44194a+0,5d2c5d+99 */
 background: #44194a; /* Old browsers */
-background: -moz-linear-gradient(top, #44194a 0%, #5d2c5d 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #44194a 0%,#5d2c5d 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #44194a 0%,#5d2c5d 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top, #4d1e4b 0%, #692d5f 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #44d1e4b4194a 0%,#692d5f 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4d1e4b 0%,#692d5f 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', endColorstr='#5d2c5d',GradientType=0 ); /* IE6-9 */
   position: absolute;
   left: 0px;
@@ -115,7 +113,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
   left: 1px;
   top: 30px;
   width: 299px;
-  height: 395px;
+  height: 3015px;
   z-index: 3;
 
 
@@ -126,8 +124,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
   position: absolute;
   left: 0px;
   top: 40px;
-  width: 300px;
-  height: 388px;
+  width: 285px;
+  height: 294px;
   z-index: 3;
 
 
@@ -135,20 +133,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #logo{
 	background-image: url(img/logo.svg);
   position: absolute;
-  left: 25px;
-  top: 528px;
-   width: 103px;
-  height:41px;
+  left: 93px;
+  top: 536px;
+  width: 111px;
+  height: 41px;
 	background-size: contain;
     background-repeat: no-repeat;
     z-index: 5;
 }
 
+
 #text1{
   background-image: url(img/text1.png);
   position: absolute;
  	 left: 24px;
-  top: 371px;
+  top: 356px;
   width: 253px;
   height:89px;
     z-index: 5;
@@ -157,7 +156,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
   background-image: url(img/text2.png);
   position: absolute;
  	 left: 87px;
-  top: 456px;
+  top: 384px;
   width: 193px;
   height: 50px;
     z-index: 8;
@@ -166,7 +165,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
   background-image: url(img/text3.png);
   position: absolute;
  	 left: 84px;
-  top: 451px;
+  top: 384px;
   width: 197px;
   height: 51px;
     z-index: 8;
@@ -175,7 +174,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
   background-image: url(img/text4.png);
   position: absolute;
  	 left: 84px;
-  top: 451px;
+  top: 384px;
   width: 199px;
   height: 48px;
     z-index: 8;
@@ -183,10 +182,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #text5{
   background-image: url(img/text5.png);
   position: absolute;
- 	 left: 84px;
-  top: 451px;
-  width: 199px;
-  height: 48px;
+ 	 left: 60px;
+  top: 384px;
+  width: 214px;
+  height: 46px;
     z-index: 8;
     background-size: contain;
     background-repeat: no-repeat;
@@ -194,8 +193,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #cta{
   background-color: rgb(245, 220, 51);
   position: absolute;
-  left: 151px;
-  top: 533px;
+   left: 86px;
+  top: 473px;
   width: 132px;
   height: 33px;
   z-index: 6;
@@ -222,17 +221,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
      width: 52px;
   height: 52px;
     left:13px;
-    top:450px;
+    top:378px;
     position: absolute; 
 }
 #icon4{
    
 
   position: absolute;
-  left:24px;
- top:450px;
-  width: 30px;
-  height: 57px;
+     left: 15px;
+    top: 381px;
+    width: 32px;
+    height: 57px;
   z-index: 79;
 
 }
