@@ -48,7 +48,7 @@ startAnimation = function() {
         .to("#people2",.85,{x:400,ease:Sine.easeOut},"out3")
         .to("#text3,#icon2", .25,{opacity:0},"out3")
 
-     .from("#people3",.85,{x:-200,ease:Sine.easeOut},"in4")
+     .from("#people3",.85,{x:-400,ease:Sine.easeOut},"in4")
        .from("#text4", .5,{opacity:0},"in4")
         .from("#icon3", .5,{ease: Bounce.easeOut, scale:0 },"in4")
     .add("out4","+=2")

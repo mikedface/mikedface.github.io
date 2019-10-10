@@ -110,10 +110,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 
   background-image: url("img/people3.png");
   position: absolute;
-  left: 1px;
+  left: -80px;
   top: 30px;
-  width: 299px;
-  height: 3015px;
+  width: 442px;
+  height: 303px;
   z-index: 3;
 
 
@@ -122,7 +122,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 
   background-image: url("img/people4.png");
   position: absolute;
-  left: 0px;
+  left: 11px;
   top: 40px;
   width: 285px;
   height: 294px;

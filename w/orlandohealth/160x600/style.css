@@ -79,10 +79,10 @@ left:10px;
 
   background-image: url("img/people2.png");
   position: absolute;
-    lefT:0px;
+    lefT:-20px;
   top: 30px;
-  width: 160px;
-  height: 276px;
+  width: 192px;
+  height: 287px;
   z-index: 3;
 
 
@@ -91,10 +91,10 @@ left:10px;
 
   background-image: url("img/people1.png");
   position: absolute;
-left:-50px;
-    top: 10px;
-  width: 261px;
-  height: 510px;
+left:-10px;
+    top: 19px;
+  width: 211px;
+  height: 285px;
   z-index: 3;
 
 
@@ -103,11 +103,11 @@ left:-50px;
 
   background-image: url("img/people3.png");
   position: absolute;
-    left:0px;
+    left:-60px;
   
   top: 10px;
-  width:160px;
-  height: 304px;
+  width:262px;
+  height: 296px;
   z-index: 3;
 
 
