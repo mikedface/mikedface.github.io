@@ -127,10 +127,10 @@ left:4px;
 #logo{
 	background-image: url(img/logo.svg);
   position: absolute;
- left: 16px;
-    top: 531px;
+left: 29px;
+    top: 516px;
     width: 127px;
-    height: 55px;
+    height: 66px;
 	background-size: contain;
     background-repeat: no-repeat;
     z-index: 5;
@@ -199,15 +199,7 @@ left:4px;
     top:10px;
     position: absolute;
 }
-.icon {
-  background-image: url("icon.png");
-  position: absolute;
-  left:62px;
-    top:328px;
-  width: 41px;
-  height: 46px;
-  z-index: 21;
-}
+
 
 #icon1{
     z-index: 8;

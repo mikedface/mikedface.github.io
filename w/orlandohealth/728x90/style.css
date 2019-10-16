@@ -114,23 +114,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 
 
 }
-.OH_Wordmark_KO {
-  background-image: url("OH_Wordmark_KO.png");
-  position: absolute;
-  left: 2134px;
-  top: 702px;
-  width: 97px;
-  height: 35px;
-  z-index: 88;
-}
+
 
 #logo{
 	background-image: url(img/logo.svg);
   position: absolute;
   left: 616px;
-  top: 27px;
-   width: 97px;
-  height: 35px;
+    top: 17px;
+    width: 120px;
+    height: 56px;
 	background-size: contain;
     z-index: 5;
     background-repeat: no-repeat;
@@ -205,15 +197,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
     top:9px;
     position: absolute;
 }
-.icon {
-  background-image: url("icon.png");
-  position: absolute;
-  left: 966px;
-  top: 821px;
-  width: 41px;
-  height: 46px;
-  z-index: 21;
-}
+
 
 #icon1{
     z-index: 8;

@@ -61,15 +61,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
   z-index: 4;
 }
 
-#shadow{
-    background-image: url(img/shadow.png);
-      left: 64px;
-    height: 51px;
-    width: 157px;
-    top: 184px;
-    position: absolute;
 
-}
 #girl1{
 
   background-image: url("img/girl1.png");
@@ -133,10 +125,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
 #logo{
 	background-image: url(img/logo.svg);
   position: absolute;
-  left: 93px;
-  top: 536px;
-  width: 111px;
-  height: 41px;
+     left: 36px;
+    top: 535px;
+    width: 229px;
+    height: 59px;
 	background-size: contain;
     background-repeat: no-repeat;
     z-index: 5;
@@ -206,15 +198,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44194a', end
     top:10px;
     position: absolute;
 }
-.icon {
-  background-image: url("icon.png");
-  position: absolute;
-  left: 966px;
-  top: 821px;
-  width: 41px;
-  height: 46px;
-  z-index: 21;
-}
+
 
 #icon1,#icon2,#icon3{
     z-index: 8;

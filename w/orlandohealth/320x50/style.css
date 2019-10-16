@@ -62,7 +62,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', end
 
 #girl1{
 
-  background-image: url("img/girl1.png");
   position: absolute;
   left: 210px;
   top: 0px;
@@ -74,7 +73,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', end
 }
 #people1{
 
-  background-image: url("img/people2.png");
   position: absolute;
   left: 45px;
   top: 0px;
@@ -98,7 +96,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', end
 }
 #people3{
 
-  background-image: url("img/people3.png");
   position: absolute;
   left: 7px;
   top: 0px;
@@ -110,7 +107,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', end
 }
 #people4{
 
-  background-image: url("img/people4.png");
   position: absolute;
   left: 51px;
   top: 0px;
@@ -123,10 +119,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48194d', end
 #logo{
 	background-image: url(img/logo.svg);
   position: absolute;
-left: 247px;
-    top: 14px;
-    width: 57px;
-    height: 28px;
+left: 251px;
+    top: 6px;
+    width: 82px;
+    height: 35px;
 	background-size: contain;
     background-repeat: no-repeat;
     z-index: 5;
@@ -192,15 +188,7 @@ left: 247px;
     top:7px;
     position: absolute;
 }
-.icon {
-  background-image: url("icon.png");
-  position: absolute;
-  left: 966px;
-  top: 821px;
-  width: 41px;
-  height: 46px;
-  z-index: 21;
-}
+
 
 #icon1,#icon2,#icon3{
     z-index: 8;
