@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bulma": "^0.7.1",
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.13.1"
   },
     "scripts": {
   "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
